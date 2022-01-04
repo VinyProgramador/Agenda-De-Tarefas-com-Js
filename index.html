@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda-de-Tarefas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="conteudo">
+        <div class="topo">
+            <input type="text" id="inputNovaTarefa" placeholder="Adicione uma nova tarefa">
+            <button id="AddTarefa">
+                <i class="fa fa-plus"></i>
+            </button>
+        </div>
+
+        <ul id="listaTarefas">
+        </ul>
+    </div>
+
+    <div id="janelaEdicao">
+        <button id="janelaEdicaoBtnFechar">
+            <i class="fa fa-remove fa-2x"></i>
+        </button>
+        <h2 id="idTarefaEdicao">#1021</h2>
+        <hr>
+        <form>
+            <div class="frm-linha">
+                <label for="nome">Tarefa:</label>
+                <input type="text" id="inputTarefaNomeEdicao">
+            </div>
+            <div class="frm-linha">
+                <button id="MudarTarefa">Salvar</button>
+            </div>
+        </form>
+    </div>
+    <div id="janelaEdicaoFundo"></div>
+
+    <script src="js/tarefas.js"></script>
+</body>
+
+</html>
+
+
+<!-- Codigo realizado pelos seguintes videos: "https://www.youtube.com/watch?v=-pbPXEoqENI&t=591s" -->
+<!-- obs: Não copiei o codigo Fui aprendendo e realizando durante o video, isso é diferente de copiar e colar! -->
+<!-- Meu Git-hub "https://github.com/VinyProgramador/VinyProgramador/blob/main/README.md" Aperte "Ctrl+Clique" em cima do link :) -->
+<!-- Meu linkedin: "https://www.linkedin.com/in/vin%C3%ADcius-almeida-52144420b/" Aperte "Ctrl+Clique" em cima do link :)-->
